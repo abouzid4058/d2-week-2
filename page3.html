@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Great Cliffs — Sign Up</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <!-- ===== Container for the Entire Page ===== -->
+    <div id="container">
+
+        <!-- ===== Header Section ===== -->
+<header style="text-align: center; color: white;">
+    <h2>Welcome to My Web Page</h2>
+</header>
+
+<!-- ===== Navigation Section ===== -->
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="page2.html">Gallery</a></li>
+        <li><a href="page3.html">Contact</a></li>
+    </ul>
+</nav>
+
+  <!-- Main -->
+  <main>
+    <h2>Join Our Community</h2>
+    <p>Sign up to receive updates about trails, campsites, and events.</p>
+
+    <!-- Form with action and method -->
+   <form action="/signup" method="post">
+  <fieldset>
+    <legend>User personal information</legend>
+
+    <label>Enter your full name</label>
+    <input type="text" name="name">
+
+    <label>Enter your email</label>
+    <input type="email" name="email">
+
+    <label>Enter your phone</label>
+    <input type="text" name="phone">
+
+    <label>Select your gender</label>
+    <input type="radio" name="gender" value="male"> Male
+    <input type="radio" name="gender" value="female"> Female
+
+    <label>How should we contact you?</label>
+    <select>
+      <option>Email</option>
+      <option>Phone</option>
+    </select>
+
+    <label>Tell us the reason of your visit today:</label>
+    <textarea rows="5" cols="30"></textarea>
+
+    <input type="submit" value="sign-up">
+  </fieldset>
+</form>
+
+  </main>
+
+  <!-- Footer -->
+<footer>
+            <p>&copy; 2024 My Web Page</p>
+        </footer>
+</body>
+</html>
